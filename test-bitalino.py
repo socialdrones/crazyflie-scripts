@@ -5,9 +5,11 @@ Reads and prints 8-bit sensor value and sensor strain
 calculated via formula in datasheet (range [-50, 50]%).
 """
 
+
 from time import sleep, time
 
 from helpers import bt_connect
+
 
 # Settings
 bt_macAddress = "98:D3:71:FD:63:15" # BITalino MAC address, for Windows
